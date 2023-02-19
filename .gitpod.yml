@@ -1,0 +1,12 @@
+image:
+  file: .gitpod.Dockerfile
+
+# List of ports to expose and their protocol
+ports:
+  - port: 8080
+    onOpen: open-preview
+
+# List of initial commands to run
+# after starting the workspace
+tasks:
+  - command: cargo run
