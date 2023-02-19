@@ -9,6 +9,3 @@ ENV PATH="/home/gitpod/.cargo/bin:${PATH}"
 
 # Install Rust tools
 RUN rustup component add rustfmt clippy
-
-# Install Gitpod extension for Rust
-RUN gitpod-layer install rust
